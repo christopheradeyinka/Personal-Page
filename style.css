@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    /* background-image: url(assets/img/bg.jpg); */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    min-height: 600px;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.into{
+    margin: 10% auto;
+    padding: 0px;
+}
+a:hover{
+    color:gold;
+}
+#portfolio{
+    background-color:#f8f9fa ;
+}
+.caption{
+    margin: 15px !important;
+}
+h2{
+    color:#212529;
+}
+img{
+    width: 100%;
+}
+.container1{
+    text-align:center;
+
+}
+.container1 p{
+    font-size: 20px;
+}
+.modal{
+    width: 70% !important ; height: 70% !important 
+}
+#service{
+    border: 1px solid red;
+    margin: 10% auto;
+}
+
+/* #about-header{
+    background-color: #f8f9fa;
+} */
+.about{
+    text-align: center;
+}
+.about img{
+    width: 190px;
+    height: 220px;
+}
+#contact-header{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)), url(assets/img/h.jpg);
+    background-position: center;
+    background-size: cover;
+     min-height: 200px;
+}
+    .progress .determinate{
+ background-color: #eccd8e !important;
+    }
+    .btn-icons{
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .footer-copyright.grey.darken-4 {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+    }
+   .footer-copyright{
+       line-height: 0px;
+       height: 100px;
+       margin: 0px;
+   }
+   p.center-align.copy {
+    line-height: 35px;
+}
+form input,textarea{
+    color:white !important;
+    text-shadow: 1px 1px 1px black;
+    font-size:1em !important;
+}
